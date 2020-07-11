@@ -6,9 +6,13 @@
 [![License](https://poser.pugx.org/laravel/lumen-framework/license.svg)](https://packagist.org/packages/laravel/lumen-framework)
 
 
-Here is the API End point 
+Here is the API End point -------
 
 $router->get('/', 'MyController@displayCustomer');
+
+
 $router->post('/post','MyController@addCustomer');
+
 $router->put('/update/{id}','MyController@updateCustomer');
+
 $router->delete('/delete/{id}','MyController@deleteCustomer');
